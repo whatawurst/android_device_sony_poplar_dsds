@@ -1,7 +1,7 @@
 ### PLATFORM
 $(call inherit-product, device/sony/yoshino/platform.mk)
 ### PROPRIETARY VENDOR FILES
-$(call inherit-product, vendor/sony/poplar/poplar-vendor.mk)
+$(call inherit-product, vendor/sony/poplar_dsds/poplar_dsds-vendor.mk)
 
 ifeq ($(WITH_FDROID),true)
 $(call inherit-product, vendor/fdroid/fdroid-vendor.mk)
@@ -10,7 +10,7 @@ endif
 ### DALVIK
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
-DEVICE_PATH := device/sony/poplar
+DEVICE_PATH := device/sony/poplar_dsds
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi

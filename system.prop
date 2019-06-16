@@ -1,4 +1,4 @@
-# system prop for poplar
+# system prop for poplar_dsds
 
 ### USB
 ro.usb.pid_suffix=1F3
@@ -41,9 +41,9 @@ ro.bluetooth.wipower=true
 # System props for telephony
 ro.com.android.dataroaming=false
 persist.ims.disableUserAgent=1
-# This will be set by loading
-# /oem/system-properties/config.prop
-# ro.telephony.default_network=9
+ro.telephony.default_network=9,0
+persist.vendor.radio.multisim.config=dsds
+persist.radio.multisim.config=dsds
 
 ### API
 # First released API level
@@ -71,14 +71,14 @@ persist.vendor.overlay.izat.optin=rro
 
 ##### Add values MiscTA #####
 # /system/etc/prop.default
-ro.semc.version.sw=1307-7511
+ro.semc.version.sw=1307-7471
 ro.semc.version.sw_revision=47.2.A.10.62
-ro.semc.version.sw_variant=GLOBAL-LTE4A
+ro.semc.version.sw_variant=GLOBALDS-LTE4D
 ro.semc.version.sw_type=user
 
 # /system/build.prop
-ro.semc.product.model=G8341
-ro.semc.ms_type_id=PM-1054-BV
+ro.semc.product.model=G8342
+ro.semc.ms_type_id=PM-1050-BV
 ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=47.2.A.10.62
 ro.semc.product.name=Xperia XZ1

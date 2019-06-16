@@ -15,19 +15,19 @@
 
 ### INHERIT FROM YOSHIRO
 include device/sony/yoshino/BoardConfigPlatform.mk
-include vendor/sony/poplar/BoardConfigVendor.mk
+include vendor/sony/poplar_dsds/BoardConfigVendor.mk
 
-DEVICE_PATH := device/sony/poplar
+DEVICE_PATH := device/sony/poplar_dsds
 
 PRODUCT_PLATFORM := yoshino
 
 ### BOOTLOADER
-TARGET_BOOTLOADER_BOARD_NAME := G8341
+TARGET_BOOTLOADER_BOARD_NAME := G8342
 
 ### KERNEL
-TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-poplar_defconfig
+TARGET_KERNEL_CONFIG := lineage-msm8998-yoshino-poplar_dsds_defconfig
 
-BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar
+BOARD_KERNEL_CMDLINE += androidboot.hardware=poplar_dsds
 
 ### PARTITIONS
 # See also /proc/partitions on the device
@@ -56,3 +56,6 @@ BOARD_MODEM_CUSTOMIZATIONS := true
 
 ### IMS
 BOARD_IMS_CAMERA := true
+
+### HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
