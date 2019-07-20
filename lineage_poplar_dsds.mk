@@ -23,7 +23,7 @@ PRODUCT_MODEL := G8342
 PRODUCT_MANUFACTURER := Sony
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=poplar_dsds
+    PRODUCT_NAME=poplar_dsds \
     PRIVATE_BUILD_DESC="poplar_dsds-user 9 YOSHINO-2.2.0-190522-0405 1 dev-keys"
 
 BUILD_FINGERPRINT := Sony/poplar_dsds/poplar_dsds:9/YOSHINO-2.2.0-190522-0405/1:user/dev-keys
