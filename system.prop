@@ -41,7 +41,7 @@ ro.bluetooth.wipower=true
 # System props for telephony
 ro.com.android.dataroaming=false
 persist.ims.disableUserAgent=1
-ro.telephony.default_network=9,0
+ro.telephony.default_network=9,1
 persist.vendor.radio.multisim.config=dsds
 persist.radio.multisim.config=dsds
 
