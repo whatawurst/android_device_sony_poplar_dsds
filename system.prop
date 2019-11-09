@@ -26,3 +26,20 @@ ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=47.2.A.11.228
 ro.semc.product.name=Xperia XZ1
 ro.semc.product.device=G83
+
+# /oem/cust.prop
+ro.product.brand=Sony
+ro.product.name=G8342
+ro.build.fingerprint=Sony/G8342/G8342:9/47.2.A.11.228/1544251862:user/release-keys
+
+######################## Customized property values #########################
+ro.semc.version.cust=1310-8119
+ro.semc.version.cust_revision=R6C
+ro.somc.customerid=324
+ro.oem.key1=1310-8119
+#############################################################################
+
+# /oem/config.prop
+######################## Customized property values #########################
+ro.cst.prm=1310-8119:R6C
+#############################################################################
