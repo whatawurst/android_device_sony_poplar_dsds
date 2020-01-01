@@ -84,7 +84,7 @@ lib/libMiscTAApi.sony.so
 lib64/libMiscTAApi.sony.so
 lib/libMiscTaWrapper.so
 lib64/libMiscTaWrapper.so
-#-priv-app/CustomizationSelector/CustomizationSelector.apk|3ba848bedd61f131fc6dace852a357320925480d
+-priv-app/CustomizationSelector/CustomizationSelector.apk|3ba848bedd61f131fc6dace852a357320925480d
 
 # DISPLAY
 etc/permissions/com.qti.snapdragon.sdk.display.xml
