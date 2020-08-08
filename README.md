@@ -1,10 +1,10 @@
-Device configuration for Sony Xperia XZ1 dual (poplar_dsds)
+Device configuration for Sony Xperia XZ1 dual sim variant (poplar_dsds)
 ========================================================
 
 Description
 -----------
 
-This repository is for LineageOS 17.1 on Sony Xperia XZ1 dual (poplar_dsds).
+This repository is for LineageOS 17.1 on Sony Xperia XZ1 dual sim variant (poplar_dsds).
 
 How to build LineageOS
 ----------------------
@@ -25,13 +25,13 @@ How to build LineageOS
         <?xml version="1.0" encoding="UTF-8"?>
         <manifest>
             <!-- SONY -->
-            <project name="cryptomilk/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-17.1" />
-            <project name="cryptomilk/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="lineage-17.1" />
-            <project name="cryptomilk/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="lineage-17.1" />
-            <project name="derfelot/android_device_sony_poplar_dsds" path="device/sony/poplar_dsds" remote="github" revision="lineage-17.1" />
+            <project name="whatawurst/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-17.1" />
+            <project name="whatawurst/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="lineage-17.1" />
+            <project name="whatawurst/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="lineage-17.1" />
+            <project name="whatawurst/android_device_sony_poplar_dsds" path="device/sony/poplar_dsds" remote="github" revision="lineage-17.1" />
 
             <!-- Pinned blobs for poplar_dsds -->
-            <project name="derfelot/android_vendor_sony_poplar_dsds" path="vendor/sony/poplar_dsds" remote="github" revision="lineage-17.1" />
+            <project name="whatawurst/android_vendor_sony_poplar_dsds" path="vendor/sony/poplar_dsds" remote="github" revision="lineage-17.1" />
         </manifest>
 
 * Sync the repo:
@@ -50,4 +50,4 @@ How to build LineageOS
 
 * Build LineageOS
 
-        make -j7 bacon
+        make -j8 bacon
