@@ -41,4 +41,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/config/modem/569/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/569/modem.conf \
     $(DEVICE_PATH)/config/modem/571/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/571/modem.conf \
     $(DEVICE_PATH)/config/modem/572/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/572/modem.conf \
-    $(DEVICE_PATH)/config/modem/640/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/640/modem.conf
+    $(DEVICE_PATH)/config/modem/640/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/640/modem.conf \
+    $(DEVICE_PATH)/config/modem/928/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/928/modem.conf \
+    $(DEVICE_PATH)/config/modem/929/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/929/modem.conf
