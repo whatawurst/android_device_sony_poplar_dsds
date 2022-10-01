@@ -15,4 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_poplar_dsds.mk
+    $(LOCAL_DIR)/twrp_poplar_dsds.mk
+
+COMMON_LUNCH_CHOICES := \
+    twrp_poplar_dsds-eng \
+    twrp_poplar_dsds-userdebug
